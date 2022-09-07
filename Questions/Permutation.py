@@ -25,7 +25,18 @@ def permute_unique(arr):
     return result
 
 
-for item in permute_unique([1, 8, 4, 8]):
-    for ls in item:
-        print(ls, end='')
-    print()
+# for item in permute_unique([1, 8, 4, 8]):
+#     for ls in item:
+#         print(ls, end='')
+#     print()
+
+if __name__ == '__main__':
+    x = 1
+    y = 2
+    z = 4
+
+    for i in range(1, x + 1):
+        for j in range(1, y + 1):
+            for k in range(1, z + 1):
+                if i != j or j != k:
+                    print(i, j, k)
