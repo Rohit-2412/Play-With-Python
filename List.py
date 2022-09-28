@@ -19,7 +19,7 @@
 
 # Aliasing
 """
-If changes are made in copy of original llist then the change will also reflect in original
+If changes are made in copy of original list then the change will also reflect in original
 """
 a = [1, 2, 3]
 b = a
